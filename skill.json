@@ -1,0 +1,44 @@
+{
+  "name": "genpark-dynamic-sparkpage-layout-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Multi-source heterogeneous search synthesis into structured interactive Tailwind micro-report layouts with comparison matrices and copilot docks.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "genpark",
+  "category": "search-synthesis",
+  "tags": [
+    "sparkpages",
+    "genspark",
+    "search-synthesis",
+    "ui-layout",
+    "v0-dev"
+  ],
+  "inputs": {
+    "search_topic": {
+      "type": "string",
+      "default": "Top 10 Humanoid AI Robots 2026"
+    },
+    "entity_cards_count": {
+      "type": "integer",
+      "default": 8
+    }
+  },
+  "outputs": {
+    "layout_id": {
+      "type": "string"
+    },
+    "search_topic": {
+      "type": "string"
+    },
+    "comparison_matrix_columns": {
+      "type": "integer"
+    },
+    "interactive_copilot_dock_enabled": {
+      "type": "boolean"
+    },
+    "sparkpage_live_preview_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
