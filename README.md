@@ -22,7 +22,7 @@
 
 **genpark-dynamic-sparkpage-layout-synthesizer-skill** is a deterministic, zero-dependency Python skill engineered for autonomous AI workflows, multi-agent orchestration, and production deployments.
 
-> **Executive Capability**: Heterogeneous search synthesis to interactive comparison layout (Genspark Sparkpages)
+> **Executive Capability**: Heterogeneous search synthesis to interactive comparison layout (Genpark Sparkpages)
 
 ### ⚡ Key Highlights & Value
 * 🐍 **Zero External `pip` Dependencies**: Runs instantly on standard Python 3.9+ with zero environment bloat.
