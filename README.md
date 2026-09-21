@@ -1,4 +1,4 @@
-# genpark-dynamic-sparkpage-layout-synthesizer-skill
+# genpark-dynamic-page-layout-synthesizer-skill
 
 <div align="center">
 
@@ -20,9 +20,9 @@
 
 ## 📌 Overview & Capability
 
-**genpark-dynamic-sparkpage-layout-synthesizer-skill** is a deterministic, zero-dependency Python skill engineered for autonomous AI workflows, multi-agent orchestration, and production deployments.
+**genpark-dynamic-page-layout-synthesizer-skill** is a deterministic, zero-dependency Python skill engineered for autonomous AI workflows, multi-agent orchestration, and production deployments.
 
-> **Executive Capability**: Heterogeneous search synthesis to interactive comparison layout (Genpark Sparkpages)
+> **Executive Capability**: Heterogeneous search synthesis to interactive comparison layout (Genpark Pages)
 
 ### ⚡ Key Highlights & Value
 * 🐍 **Zero External `pip` Dependencies**: Runs instantly on standard Python 3.9+ with zero environment bloat.
@@ -54,10 +54,10 @@ python example_usage.py
 
 ### 2. Programmatic Integration
 ```python
-from client import DynamicSparkpageLayoutSynthesizerClient
+from client import DynamicPageLayoutSynthesizerClient
 
-client = DynamicSparkpageLayoutSynthesizerClient()
-result = client.synthesize_sparkpage_layout()
+client = DynamicPageLayoutSynthesizerClient()
+result = client.synthesize_page_layout()
 print(result)
 ```
 
@@ -71,9 +71,9 @@ Connect this skill to **Claude Desktop**, **Cursor**, or any MCP-compliant clien
 ```json
 {
   "mcpServers": {
-    "genpark-dynamic-sparkpage-layout-synthesizer-skill": {
+    "genpark-dynamic-page-layout-synthesizer-skill": {
       "command": "python",
-      "args": ["/path/to/genpark-dynamic-sparkpage-layout-synthesizer-skill/mcp_server.py"]
+      "args": ["/path/to/genpark-dynamic-page-layout-synthesizer-skill/mcp_server.py"]
     }
   }
 }
