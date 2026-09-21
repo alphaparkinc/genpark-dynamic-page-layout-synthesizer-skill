@@ -1,12 +1,12 @@
 {
-  "name": "genpark-dynamic-sparkpage-layout-synthesizer-skill",
+  "name": "genpark-dynamic-page-layout-synthesizer-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Multi-source heterogeneous search synthesis into structured interactive Tailwind micro-report layouts with comparison matrices and copilot docks.",
   "homepage": "https://genpark.ai/mcp",
   "author": "genpark",
   "category": "search-synthesis",
   "tags": [
-    "sparkpages",
+    "pages",
     "genspark",
     "search-synthesis",
     "ui-layout",
@@ -35,7 +35,7 @@
     "interactive_copilot_dock_enabled": {
       "type": "boolean"
     },
-    "sparkpage_live_preview_url": {
+    "page_live_preview_url": {
       "type": "string"
     }
   },
